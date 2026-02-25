@@ -1,4 +1,4 @@
-# Docker Python Webserver
+# Docker Webserver
 
 Minimal HTTP Python server run with Docker Compose.
 
