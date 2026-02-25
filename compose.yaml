@@ -1,9 +1,10 @@
+name: FileWebserver
 services:
-  web:
+  webserver:
+    container_name: webserver
     build:
       context: .
       dockerfile: dockerfile
-    container_name: python-webserver
     environment:
       - PORT=${PORT:-1000}
     ports:
